@@ -39,3 +39,19 @@ let criminal;
 
 // 값을 지정하지 않음
 console.log(criminal);
+
+// switch case
+
+const device = "nn";
+
+switch (device) {
+  case "iphone":
+    console.log("iphone");
+    break;
+  case "ipad":
+    console.log("ipad");
+    break;
+
+  default:
+    console.log("nothing");
+}
